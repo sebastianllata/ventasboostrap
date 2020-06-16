@@ -1,0 +1,29 @@
+body{
+    background: turquoise;
+}
+#grande-contenedor{
+    background: black;
+}
+/*#bar-menu-isquierda{
+    background: rgb(23, 23, 24);
+}*/
+#campo-derecho{
+    background-color: white;
+
+}
+#camp-derecha{
+    background: white;
+}
+.text-uppercase{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.option-menu{
+    color: white;
+}
+.container{
+    margin-top: 1%;
+}
+

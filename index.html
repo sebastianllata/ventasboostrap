@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylos.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+</head>
+<body>
+    
+    <div class="container  bg-dark"  id="grande-contenedor">
+        <div class="row">
+            <div class="col-sm-3" id="bar-menu-isquierda">
+                <div class="text-center" id="superior-menu">
+                    <a href="" class="text-uppercase ">sistac</a>
+                </div>
+
+                <div class="h-100" data-simplebar>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-desktop"></i>
+                            Inicio</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-tasks"></i>
+                            Mantenimiento</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-money-bill-wave"></i>
+                            Ventas</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-pencil-alt"></i>
+                            Compras</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-chart-bar"></i>
+                            Reportes</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-database"></i>
+                            Backup</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-tools"></i>
+                            configuration</a>
+                    </div>
+                    <div class="option-menu">
+                        <a href="#" class="d-block text-light p-3 border-0"><i class="fas fa-sign-out-alt"></i>
+                            cerrar sesion</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class=" container col-sm-9" id="campo-derecho">
+                <div class="navbar navbar-expand-lg navbar-light bg-light border-bottom" id="camp-derecha">
+                    <!--<form class="form-inline position-relative d-inline-block my-2">
+                        <a class="dropdown-item" href="#">Admin</a>
+                    </form>
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-item" href="#">Cerrar sesión</a>
+      
+                        </li>
+                    </ul>-->
+                    <div href="#" class="form-inline position-relative d-inline-block my-2">
+                        <a href="#">Admin <i class="fas fa-user-alt"></i></a>
+                    </div>
+                    <div href="#" class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <a href="#">Cerrar sesion <i class="fas fa-sign-out-alt"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="">Nueva compra</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="d-flex ">
+                            <div class="row"> 
+                                <div class="col-sm-4">
+                                    <a class="mb-2 mr-sm-2">Fecha:</a><br>
+                                    <input class="form-control mb-2 mr-sm-2" type="date">
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="mb-2 mr-sm-2" >Provedor(es):</a><br>
+                                    <input class="form-control mb-2 mr-sm-2" type="text">
+                                </div>
+                                <div class="col-sm-4"> 
+                                    <a class="mb-2 mr-sm-2">Codigo de barra</a><br>
+                                    <input class="form-control mb-2 mr-sm-2" type="number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="row"> 
+                                <div class="col-sm-4">
+                                    <a class="mb-2 mr-sm-2">Descripcion:</a><br>
+                                    <input class="form-control mb-2 mr-sm-2" type="text">
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="mb-2 mr-sm-2" >Presentacion:</a><br>
+                                    <input class="form-control mb-2 mr-sm-2" type="text">
+                                </div>
+                                <div class="col-sm-4"> 
+                                    <a class="mb-2 mr-sm-2">Precio:</a><br>
+                                    <input class="form-control mb-2 mr-sm-2" type="number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card " style="width: 16rem;">
+                            <div class="card-header bg-success">
+                                <a class="text-center">Tipo de documento</a>
+                            </div>
+                            
+                            <div class="card-body">
+                               <select name="" id="" class="form-control mb-2 mr-sm-3">
+                                   <option value="">Factura</option>
+                                   <option value="">Factura</option>
+                                   <option value="">Factura</option>
+                               </select>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input class="form-control mb-2 mr-sm-3" type="number">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control mb-2 mr-sm-3 " type="number">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+
+                </div>
+                <div class="container">
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary"><i class="fas fa-sync-alt"></i> Nuevo</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-cart-plus"></i> Agregar</button>
+                        <button type="button" class="btn btn-dark"><i class="fas fa-file-export"></i> Registrar</button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <table class="table table-bordered table">
+                        <thead class="table-success">
+                          <tr>
+                            <th>Item</th>
+                            <th>Descripcion</th>
+                            <th>Presentacion</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th>Importe</th>
+                            <th>Eliminar</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td><i class="far fa-minus-square bg-danger"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td><i class="far fa-minus-square bg-danger"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td>Rellenar</td>
+                            <td><i class="far fa-minus-square bg-danger"></i></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    
+
+                </div>
+                <!--div class="container">
+                    <div class="float-sm-right">
+                        <div class="" >
+                            <div class="row">
+                                <div class="container col-sm-2">
+                                    <span>SUBTOTAL</span>
+                                </div>
+                                <div class=" container col-sm-2">
+                                    <span>168.00</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="container col-sm-2">
+                                    <span>IGV:</span>
+                                </div>
+                                <div class="container col-sm-2">
+                                    <span>168.00</span>
+                                </div>
+                            </div>
+                            <div class="row bg-success">
+                                <div class="container col-sm-2 bg-success">
+                                    <span class="bg-success">TOTAL</span>
+                                </div>
+                                <div class="container col-sm-2 bg-success">
+                                    <span class="bg-success">168.00</span>
+            
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>-->
+                <section class="ml-auto p-2 bd-highlight"  style="width: 18rem;">
+                    <table class="table table-bordered table">
+                    <thead>
+                      <tr>
+                        <th scope="col">SUBTOTAL    :  </th>
+                        <th scope="col">1080</th>
+                  
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">IGV</th>
+                        <td>19.44</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="table-success"> TOTAL</th>
+                        <td  class="table-success">127.44</td>
+                    </tr>
+         
+                    </tbody>
+                </table>
+                </section>
+
+
+            </div>
+
+        <div>
+
+
+        </div>
+    </div>
+
+        
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+
+</html>
